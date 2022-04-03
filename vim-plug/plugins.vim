@@ -24,7 +24,7 @@ call plug#end()
 nnoremap <C-N> :bnext<CR>
 nnoremap <C-P> :bprev<CR>
 nnoremap <silent> <F1> :botright sp\|resize 10\|terminal<CR>i<CR>
-tnoremap <silent> <F1> <C-\><C-n><CR>
+tnoremap <silent> <ESC> <C-\><C-n><CR><C-W>k<CR>
 
 " nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
