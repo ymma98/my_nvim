@@ -39,4 +39,7 @@ let g:NERDTreeDirArrowCollapsible="~"
 
 nmap <silent> gd <Plug>(coc-definition)
 
+" Use <c-space> to trigger completion.
+inoremap <silent><expr> <c-space> pumvisible() ? coc#_select_confirm() : coc#refresh()
+
 
