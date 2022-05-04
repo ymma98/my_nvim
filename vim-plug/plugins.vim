@@ -43,3 +43,4 @@ nmap <silent> gd <Plug>(coc-definition)
 inoremap <silent><expr> <c-space> pumvisible() ? coc#_select_confirm() : coc#refresh()
 
 
+set clipboard=unnamedplus
