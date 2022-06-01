@@ -47,3 +47,5 @@ set clipboard=unnamedplus
 
 " set default python interpreter in nvim: 
 " https://vi.stackexchange.com/questions/36805/how-do-i-link-coc-to-the-correct-python-interpreter
+
+set splitright " default: left
