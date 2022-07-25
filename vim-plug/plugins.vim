@@ -16,6 +16,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'https://github.com/ap/vim-buftabline'
     Plug 'ycm-core/YouCompleteMe', {'do': './install.py --clang-completer'}
     " Plug 'https://github.com/ycm-core/YouCompleteMe'
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }}
 
 
 
